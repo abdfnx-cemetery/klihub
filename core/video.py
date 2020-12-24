@@ -1,0 +1,5 @@
+from pafy import new
+url = input("Enter the link: ")
+video = new(url)
+dl = video.getbest()
+dl.download()

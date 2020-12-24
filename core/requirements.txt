@@ -1,0 +1,9 @@
+click==7.1.2
+mkdir==2020.12.3
+orderdict==2020.12.3
+pafy==0.5.5
+setupcfg==2020.12.3
+setuppy-generator==2020.12.2
+values==2020.12.3
+write==2020.12.3
+youtube-dl==2020.12.9
