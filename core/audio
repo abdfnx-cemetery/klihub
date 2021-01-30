@@ -1,5 +1,7 @@
+#!/usr/bin/env python
+
 from pafy import new
 url = input("Enter the link: ")
 video = new(url)
-dl = video.getbest()
-dl.download()
+audio = video.audiostreams
+audio[0].download()
